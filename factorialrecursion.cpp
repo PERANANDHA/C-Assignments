@@ -9,7 +9,8 @@ int factorial(int n){
     }
 }
 int main(){
-    int num,fact;
+    int num;
+    long fact;
     cout<<"Enter the number for factorial: ";
     cin>>num;
     fact=factorial(num);
